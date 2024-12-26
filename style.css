@@ -1,0 +1,232 @@
+
+
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+
+#prea{
+    color: rgb(240, 195, 111);
+    font-style: oblique;
+    cursor: pointer;
+}
+
+#prea:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: orange;
+  transition: all 1.5s;
+}
+
+.accroche{
+    background: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+span{
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.icone{
+    background-color: orange;
+    border-radius: 5%;
+   
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(260deg,black,gray,black) ;
+    border-radius: 10px;
+}
+
+.option a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.option a:hover{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+
+body{
+    background-image: url("frite.png");
+    
+   
+}
+
+.contenu{
+    position: relative;
+    width: 100%;
+    max-width: 800PX;
+    overflow: hidden;
+}
+
+.carrousel{
+    display: flex;
+    animation: slide 12s infinite;
+}
+
+.item{
+    min-width: 100%;
+    box-sizing: border-box;
+} 
+
+.item img{
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+
+    33%{
+        transform: translateX(-100%);
+    }
+
+    66%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+a{
+    color: black;
+}
+
+.caroussels{
+
+    width: calc(500px* 3);
+    animation: slide 10s infinite;
+}
+
+.im{
+
+    float: right;
+}
+
+.caroussel{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px auto;
+   
+}
+.caroussels1{
+
+    width: calc(500px* 3);
+    animation: slide 10s infinite;
+}
+
+.caroussel1{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+   margin: 150px auto;
+}
+
+
+@keyframes slide{
+
+    0%{
+        transform: translateX(0);
+    }
+
+    10%{
+
+        transform: translateX(0);
+    }
+
+   33%{
+    transform: translateX(-500px);
+    }
+
+    43%{
+
+    transform: translateX(-500px);
+    }
+
+    66%{
+        transform: translateX(-1000px);
+    }
+
+    76%{
+        transform: translateX(-1000px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+.video-background{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.video-background video{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+.content{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.bas{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    list-style:none
+}
+
+li{
+    list-style: none;
+}
+
+.mention p a{
+    text-align: center;
+    color: orange;
+}
+
+h3{
+    color: orange;
+}
+
+
